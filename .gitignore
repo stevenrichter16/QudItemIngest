@@ -1,0 +1,48 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+build/
+bld/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.DotSettings.user
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+project.razor.json
+*.dll
+*.pdb
+
+# User-specific & secrets
+appsettings.*.local.json
+secrets.json
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
