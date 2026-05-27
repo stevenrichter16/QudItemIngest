@@ -10,7 +10,7 @@ namespace Infrastructure.Context;
 
 public class MongoContext
 {
-    public IMongoDatabase Database { get; }
+    private IMongoDatabase Database { get; }
 
     public MongoContext(IOptions<MongoSettings> settings)
     {
@@ -20,5 +20,6 @@ public class MongoContext
     }
 
     // TODO: Make a WeaponDocument and use a Mapper later
+    // GetCollection creates the collection if it doesn't exist
     public IMongoCollection<Weapon> Weapons => Database.GetCollection<Weapon>("weapons");
 }

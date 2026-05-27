@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{1923F270-1490-4D17-9FFD-92C92685E7CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui", "Ui\Ui.csproj", "{1923F270-1490-4D17-9FFD-92C92685E7CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A37B0BFE-4595-4103-88BC-5051A8A7516F}"
 EndProject
@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{7EBE4872-8C1C-42DE-8A7B-69BEF5B44DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QudIngest.Api", "QudIngest.Api\QudIngest.Api.csproj", "{C543145C-9BCB-4F10-96B1-D16A8AE1A164}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{C543145C-9BCB-4F10-96B1-D16A8AE1A164}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

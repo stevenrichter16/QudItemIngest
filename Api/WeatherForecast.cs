@@ -1,4 +1,4 @@
-namespace QudIngest.Api;
+namespace Api;
 
 public class WeatherForecast
 {

@@ -4,7 +4,13 @@
       "Bash(gh auth *)",
       "Bash(git init *)",
       "Bash(git checkout *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Initial commit: Qud item ingest service *)",
+      "Bash(gh repo *)",
+      "Bash(git mv *)",
+      "Bash(dotnet build *)",
+      "Bash(git commit -q -m 'Rename projects: API -> Ui, QudIngest.Api -> Api *)",
+      "Bash(git push *)"
     ]
   }
 }

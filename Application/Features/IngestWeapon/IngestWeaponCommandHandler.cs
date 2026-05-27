@@ -4,27 +4,20 @@ using Domain.Entities;
 
 namespace Application.Features.IngestWeapon;
 
-public class IngestWeaponCommandHandler
+public class IngestWeaponCommandHandler(IWeaponRepository repository)
 {
-    private readonly IWeaponRepository _repository;
-
-    public IngestWeaponCommandHandler(IWeaponRepository repository)
-    {
-        _repository = repository;
-    }
-
     public async Task<Guid> HandleAsync(IngestWeaponCommand command,  CancellationToken cancellationToken)
     {
         var dto = command.WeaponDto;
-        var weapon = new Weapon()
+        var weapon = new Weapon
         {
             Name = dto.Name,
             WeaponType = dto.WeaponType,
             BaseDamage = dto.BaseDamage,
-            Skill = dto.Skill,
+            Skill = dto.Skill
         };
 
-        await _repository.AddAsync(weapon);
+        await repository.AddAsync(weapon, cancellationToken);
         return weapon.Id;
     }
 }
